@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_data">
+        <item> 선택하세요 </item>
+        <item>    학업    </item>
+        <item>    취미    </item>
+        <item>    식사    </item>
+        <item>    여행    </item>
+        <item>    모임    </item>
+        <item>    휴식    </item>
+        <item>    사고    </item>
+    </string-array>
+
+</resources>
