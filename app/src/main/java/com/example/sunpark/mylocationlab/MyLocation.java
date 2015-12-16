@@ -26,7 +26,7 @@ public class MyLocation {
         if (lm == null)
             lm = (LocationManager) context.getSystemService(Context.LOCATION_SERVICE);
 
-        //exceptions will be thrown if provider is not permitted.
+        //퍼미션이 없으면 제외처리
         try {
             gps_enabled = lm.isProviderEnabled(LocationManager.GPS_PROVIDER);
         } catch (Exception ex) {
